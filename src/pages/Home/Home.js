@@ -1,16 +1,21 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import TopBar from '../../components/TopBar/TopBar';
 
+import TopBar from '../../components/TopBar/TopBar';
+import Sidebar from '../../components/SideBar/SideBar';
+import './home.css'
 Home.propTypes = {
     
 };
 
 function Home(props) {
     return (
-        <div>
+        <>
             <TopBar />
-        </div>
+            <div className="homeContainer">
+            <Sidebar />
+            
+            </div>
+        </>
     );
 }
 
