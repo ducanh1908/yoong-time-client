@@ -5,7 +5,7 @@ export default function Topbar() {
   return (
     <div className="topbarContainer">
       <div className="topbarLeft">
-        <span className="logo">Lamasocial</span>
+        <span className="logo">YoongTime</span>
       </div>
       <div className="topbarCenter">
         <div className="searchbar">
@@ -35,8 +35,9 @@ export default function Topbar() {
             <span className="topbarIconBadge">1</span>
           </div>
         </div>
-        <img src="/assets/person/1.jpeg" alt="" className="topbarImg"/>
+        <img src="https://pdp.edu.vn/wp-content/uploads/2021/05/hinh-anh-avatar-cho-con-gai-1-600x600.jpg" alt="" className="topbarImg"/>
       </div>
     </div>
+
   );
 }
